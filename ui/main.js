@@ -13,7 +13,7 @@ button.onclick=function(){
         }
         
     };
-    request.open('GET','http://http://anweshb45.imad.hasura-app.io/counter',true);
+    request.open('GET','http://anweshb45.imad.hasura-app.io/counter',true);
     request.send(null);
 
 };
