@@ -37,7 +37,7 @@ submit.onclick = function(){
         
     };
     var name = nameInput.value;
-var submit = document.getElementById('submit_btn');
+    var submit = document.getElementById('submit_btn');
     request.open('GET','http://anweshb45.imad.hasura-app.io/submit-name?name=' + name ,true);
     request.send(null);
 };
