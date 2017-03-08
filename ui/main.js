@@ -18,7 +18,7 @@ button.onclick=function(){
     request.send(null);
 };
 
-var nameInput = document.getElementById('name');
+var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
    var request = new XMLHttpRequest();
     request.onreadystatechange = function(){
@@ -37,7 +37,7 @@ submit.onclick = function(){
         
     };
     var name = nameInput.value;
-    var submit = document.getElementById('submit_btn');
+    var nameInput = document.getElementById('name');
     request.open('GET','http://anweshb45.imad.hasura-app.io/submit-name?name=' + name ,true);
     request.send(null);
 };
